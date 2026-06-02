@@ -1,1 +1,13 @@
+{
+  "domain": "warema_wms",
+  "name": "Warema WMS WebControl pro",
+  "version": "1.0.0",
+  "documentation": "https://github.com/Reongard/ha_warema_wms",
+  "issue_tracker": "https://github.com/Reongard/ha_warema_wms/issues",
+  "dependencies": [],
+  "codeowners": ["@Reongard"],
+  "requirements": [],
+  "iot_class": "local_polling",
+  "config_flow": true
+}
 
