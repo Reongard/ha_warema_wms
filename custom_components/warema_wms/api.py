@@ -21,7 +21,7 @@ class WMSWebControlAPI:
     def __init__(self, host: str, port: int = 80) -> None:
         self._host = host
         self._port = port
-        self._base_url = f"http://{host}:{port}/api/WMS/WMSRequest"
+        self._base_url = f"http://{host}:{port}/WMS/WMSRequest"
         self._session = None
 
     def _get_session(self):
